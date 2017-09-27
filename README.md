@@ -16,9 +16,9 @@
 ## Setting up Database
 `cd quickfix/src/sql/postgresql`
 
-`./create.sh eshares`
+`./create.sh <username>`
 
-- **eshares** is the username for the database
+- **<username>** is the username for the database
 - A database called **quickfix** with the tables will now be created
 
 ## Building and Installing
