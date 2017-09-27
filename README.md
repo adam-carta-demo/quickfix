@@ -18,7 +18,7 @@
 
 `./create.sh <username>`
 
-- **<username>** is the username for the database
+- **username** is the username for the database
 - A database called **quickfix** with the tables will now be created
 
 ## Building and Installing
