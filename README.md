@@ -24,9 +24,9 @@
 ## Building and Installing
 `./bootstrap`
 
-`./configure --prefix=/Users/master/.pyenv/versions/fix --with-postgresql --with-python`
+- **IMPORTANT**: Replace the below --prefix with your path to your virtualenv. In this example, the virtualenv under pyenv is named "fix"
 
-- **IMPORTANT**: Replace the above --prefix with your path to your virtualenv. In this example, the virtualenv under pyenv is named "fix"
+`./configure --prefix=/Users/master/.pyenv/versions/fix --with-postgresql --with-python`
 - *--with-postgresql* and *--with-python*, compiles it with the postgresql libraries and into python
 
 `make`
